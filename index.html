@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Gym Essentials Nepal</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+  <header>
+    <div class="logo">Gyms Essentials Nepal</div>
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Products</a></li>
+        <li><a href="#">Cart</a></li>
+        <li><a href="#">Contact</a></li>
+        <li><a href="#">About Us</a></li>
+        <button onclick="myFunction()">Dark Mode</button>
+        
+
+      </ul>
+      
+    </nav>
+  </header>
+    
+  <section class="banner">
+    <h1>Welcome to Our Store!</h1>
+    <p>Shop the latest products at great prices.</p>
+    <a href="#" class="btn">Shop Now</a>
+  </section>
+ 
+  <section class="products">
+    <h2>Featured Products</h2>
+    <div class="product-card">
+      <img src="adjustable dumbells.jpeg" alt="dumbells">
+      <h3>30 Kgs Adjustable Dumbells</h3>
+      <p>Rs. 10000 </p>
+      <a href="#" class="btn" onclick="addToCart('30 Kgs Adjustable Dumbells')">Add to Cart</a>
+    </div>
+
+    <div class="product-card">
+      <img src="product 2.jpeg" alt="Ppunching bags">
+      <h3>Heavy Punching Bags and Accessories</h3>
+      <p>Rs. 20000</p>
+      <a href="#" class="btn" onclick="addToCart('Heavy Punching Bags and Accessories')">Add to Cart</a>
+    </div>
+   
+    <div class="product-card">
+      <img src="whey.jpeg" alt="whey">
+      <h3>Protein powders and RTG Protein Bar</h3>
+      <p>Rs. 2499 - 14000</p>
+      <a href="#" class="btn" onclick="addToCart('Protein powders and RTG Protein Bar')">Add to Cart</a>
+    </div>
+
+    <div class="product-card">
+      <img src="gym wears.jpeg" alt="gym wears">
+      <h3>Training Wears and Shoes</h3>
+      <p>Rs. 1500-5000</p>
+      <a href="#" class="btn" onclick="addToCart('Training Wears and Shoes')">Add to Cart</a>
+    </div>
+
+    <div class="product-card">
+      <img src="gym belts.jpeg" alt="gym belts">
+      <h3>Weight Lifting Belt and Straps</h3>
+      <p>Rs. 3500</p>
+      <a href="#" class="btn" onclick="addToCart('Weight Lifting Belt and Straps')">Add to Cart</a>
+    </div>
+    <script src="gym belts.jpeg"></script>
+  </section>
+ 
+  <footer>
+    <p>&copy; 2023 Gym Wear Nepal. All rights reserved.</p>
+  </footer>
+
+  <script>
+    function addToCart(productName) {
+      alert('Item "' + productName + '" added to cart!');
+    }
+  </script>
+  <script src="gymweb.js"></script>
+
+</body>
+</html>
